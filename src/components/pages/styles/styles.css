@@ -44,8 +44,12 @@ body {
 }
 
 .card {
+    border-radius: 25px;
     width: 500px;
     height: 500px;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
 }
 
 .card-body {
@@ -53,7 +57,10 @@ body {
 }
 
 .card-title, .card-text {
-    color: #000000;
+    color: #56CCF2;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .projects-container {
@@ -75,7 +82,7 @@ body {
 } */
 
 .footer-list {
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

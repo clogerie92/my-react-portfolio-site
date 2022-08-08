@@ -34,7 +34,7 @@ function Portfolio () {
             
         },
         {
-            "image": screenshot4,
+            "image": screenshot5,
             "title": "NoteHub",
             "description": "This is an application called NoteHub that can be used to write and save notes.",
             "repo": "https://github.com/clogerie92/NoteHub",
@@ -42,7 +42,7 @@ function Portfolio () {
             
         },
         {
-            "image": screenshot5,
+            "image": screenshot4,
             "title": "Slice-N-Dice",
             "description": "This application is a Pizza ordering app where users can sign up or login to place an order while the employee receives those orders.",
             "repo": "https://github.com/clogerie92/Slice-n-Dice",
