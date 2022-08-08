@@ -27,8 +27,8 @@ body {
 }
 
 #my-portrait {
-    border-radius: 25px;
-    padding: 50px;
+    border-radius: 50px;
+    margin-left: 50px;
 }
 
 .navbar {
