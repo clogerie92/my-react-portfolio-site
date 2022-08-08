@@ -27,7 +27,6 @@ function Contact() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
     if (!validateEmail(email)) {
       setErrorMessage("Please enter a valid email.");
       return;
@@ -42,11 +41,14 @@ function Contact() {
     setName("");
     setEmail("");
     setMessage("");
+    window.open(`mailto:${email}`);
   };
+
   return (
     <>
         <h2 className="center" id="contact-header">Contact</h2>
-        <form onSubmit={handleFormSubmit} id="contact-form">
+        {/* onSubmit={handleFormSubmit} */}
+        <form id="contact-form">
             <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label"></label>
                 <input
@@ -93,6 +95,7 @@ function Contact() {
                 <button
                 type="submit"
                 className="btn btn-primary"
+                onClick={handleFormSubmit}
                 >Send</button>
             </div>
         </form>
