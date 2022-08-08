@@ -2,7 +2,17 @@ body {
     background-image: url("https://images.unsplash.com/photo-1547499417-95afb539f4d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    color: azure; 
+    /* color: azure;  */
+    color: #ECE9E6;
+    color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+.navbar {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
 }
 
 .my-name {
@@ -31,10 +41,23 @@ body {
     margin-left: 50px;
 }
 
-.navbar {
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #434343, #000000);
+/* .footer-container {
+    margin-top: 60px;
+} */
+
+.footer-list {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 3%;    
 }
 
 
