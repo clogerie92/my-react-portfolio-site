@@ -6,6 +6,7 @@ function Header () {
         <header className="header">
             <h1 className="my-name">Carl Logerie</h1>
         </header>
+        
     )
 }
 

@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80");
+    background-image: url("https://images.unsplash.com/photo-1547499417-95afb539f4d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
     background-repeat: no-repeat;
     color: azure; 
@@ -8,6 +8,33 @@ body {
 .my-name {
     margin-left: 20px;
     margin-top: 10px;
+}
+
+#about-me {
+    margin-left: 50px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#about-content {
+    width: 600px;
+    padding: 50px;
+}
+
+#my-portrait {
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.navbar {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
 }
 
 
