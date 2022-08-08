@@ -21,7 +21,7 @@ body {
 }
 
 #about-me {
-    margin-left: 50px;
+    margin-left: 1200px;
 }
 
 .about-section {
@@ -29,11 +29,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 #about-content {
     width: 600px;
     padding: 50px;
+    margin-bottom: 300px;
 }
 
 #my-portrait {
