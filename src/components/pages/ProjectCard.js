@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
   return (
     <ul className="list-group">
       <div className="card">
-        <img src={image} className="card-img-top" alt="project screenshot" />
+        <img src={image} className="card-img-top projects-image" alt="project screenshot" />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>

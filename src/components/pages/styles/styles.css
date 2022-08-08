@@ -43,12 +43,39 @@ body {
     margin-left: 50px;
 }
 
+.card {
+    width: 500px;
+    height: 500px;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-title, .card-text {
+    color: #000000;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects-image {
+    width: 400px;
+    /* height: 200px; */
+    margin: 15px;
+}
+
 /* .footer-container {
     margin-top: 60px;
 } */
 
 .footer-list {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
