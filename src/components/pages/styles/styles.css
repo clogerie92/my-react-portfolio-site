@@ -110,8 +110,14 @@ nav a {
 }
 
 #contact-form {
-    width: 500px;
-    margin-left: 725px;
+    width: 400px;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* width: 100vw; */
 }
 
 .prof {
