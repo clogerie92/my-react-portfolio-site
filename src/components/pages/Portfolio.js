@@ -59,7 +59,7 @@ function Portfolio () {
     ])
     return (
         <div>
-            <h2>Portfolio</h2>
+            <h2 className="center">Portfolio</h2>
             <div className="projects-container">
                 {projects.map((project) => (
                     <ProjectCard project = {project} />

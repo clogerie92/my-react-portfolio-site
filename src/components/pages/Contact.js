@@ -45,7 +45,7 @@ function Contact() {
   };
   return (
     <>
-        <h2 id="contact-header">Contact</h2>
+        <h2 className="center" id="contact-header">Contact</h2>
         <form onSubmit={handleFormSubmit} id="contact-form">
             <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">                </label>

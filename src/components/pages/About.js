@@ -1,13 +1,13 @@
 import React from "react";
-import myportrait from "./images/myportrait.png";
+import githubavatar from "./images/githubavatar.jpeg";
 import "./styles/styles.css";
 
 function About () {
     return (
         <div>
-            <h2 id="about-me">About</h2>
+            <h2 className="center" id="about-me">About</h2>
             <div className="about-section">
-            <img src={myportrait} alt="portrait" id="my-portrait"/>
+            <img src={githubavatar} alt="portrait" id="my-portrait"/>
                 <p id="about-content">
                     Hi! My name is Carl Logerie and I am a passionate full stack
                     software engineer using web technologies to build amazing web

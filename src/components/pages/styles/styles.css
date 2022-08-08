@@ -2,12 +2,39 @@ body {
     background-image: url("https://images.unsplash.com/photo-1547499417-95afb539f4d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    /* color: azure;  */
     color: #ECE9E6;
     color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
     color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    font-family: 'Abel', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    padding: 0 10px;
+    color: #FFFFFF;
+  }
+  
+  a:after {
+    content: "";
+    position: absolute;
+    background-color: #56CCF2;
+    background-color: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background-color: linear-gradient(to right, #2F80ED, #56CCF2);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  nav a:hover:after {
+    width: 100%;
+  }
 
 .navbar {
     background: #000000;
@@ -20,9 +47,9 @@ body {
     margin-top: 10px;
 }
 
-#about-me {
+/* #about-me {
     margin-left: 1200px;
-}
+} */
 
 .about-section {
     display: flex;
@@ -41,6 +68,7 @@ body {
 #my-portrait {
     border-radius: 50px;
     margin-left: 50px;
+    height: 500px;
 }
 
 .card {
@@ -57,10 +85,9 @@ body {
 }
 
 .card-title, .card-text {
-    color: #56CCF2;  /* fallback for old browsers */
-    color: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-    color: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    color: #56CCF2;
+    color: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    color: linear-gradient(to right, #2F80ED, #56CCF2);
 }
 
 .projects-container {
@@ -75,6 +102,28 @@ body {
     width: 400px;
     /* height: 200px; */
     margin: 15px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact-form {
+    width: 500px;
+    margin-left: 725px;
+}
+
+.prof {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding: 10px;
+    align-items: center;
+    color: #56CCF2;
+    color: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    color: linear-gradient(to right, #2F80ED, #56CCF2);
 }
 
 /* .footer-container {
