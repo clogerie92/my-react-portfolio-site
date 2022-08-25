@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio-site/static/css/main.5cb768c3.css",
-    "main.js": "/my-react-portfolio-site/static/js/main.ea1618bf.js",
-    "static/media/cheers.png": "/my-react-portfolio-site/static/media/cheers.4f76ba2ca1e5a6bb5220.png",
-    "static/media/slicendice.png": "/my-react-portfolio-site/static/media/slicendice.bc50e4f8556b5724338e.png",
-    "static/media/techtalk.png": "/my-react-portfolio-site/static/media/techtalk.22c09ccedcf4e4045a9d.png",
-    "static/media/weather.png": "/my-react-portfolio-site/static/media/weather.4be72f2ca8b366a910cb.png",
-    "static/media/Resume_1.pdf": "/my-react-portfolio-site/static/media/Resume_1.a7620ec9c3c7fa05f4ab.pdf",
-    "static/media/chirp.png": "/my-react-portfolio-site/static/media/chirp.0c4fc79324e32f21a2a2.png",
-    "static/media/notehub.png": "/my-react-portfolio-site/static/media/notehub.00afcfc47ac987bcc4f3.png",
-    "static/media/githubavatar.jpeg": "/my-react-portfolio-site/static/media/githubavatar.7d1b2077c63a9c0d6bbf.jpeg",
-    "index.html": "/my-react-portfolio-site/index.html",
-    "main.5cb768c3.css.map": "/my-react-portfolio-site/static/css/main.5cb768c3.css.map",
-    "main.ea1618bf.js.map": "/my-react-portfolio-site/static/js/main.ea1618bf.js.map"
+    "main.css": "/my-app/static/css/main.775c23b5.css",
+    "main.js": "/my-app/static/js/main.96ad1b6e.js",
+    "static/media/cheers.png": "/my-app/static/media/cheers.4f76ba2ca1e5a6bb5220.png",
+    "static/media/slicendice.png": "/my-app/static/media/slicendice.bc50e4f8556b5724338e.png",
+    "static/media/techtalk.png": "/my-app/static/media/techtalk.22c09ccedcf4e4045a9d.png",
+    "static/media/weather.png": "/my-app/static/media/weather.4be72f2ca8b366a910cb.png",
+    "static/media/myportrait.png": "/my-app/static/media/myportrait.cfabd03b451a3b5336b6.png",
+    "static/media/Resume-1.pdf": "/my-app/static/media/Resume-1.d4acf6f55c1cc9256170.pdf",
+    "static/media/chirp.png": "/my-app/static/media/chirp.0c4fc79324e32f21a2a2.png",
+    "static/media/notehub.png": "/my-app/static/media/notehub.00afcfc47ac987bcc4f3.png",
+    "index.html": "/my-app/index.html",
+    "main.775c23b5.css.map": "/my-app/static/css/main.775c23b5.css.map",
+    "main.96ad1b6e.js.map": "/my-app/static/js/main.96ad1b6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cb768c3.css",
-    "static/js/main.ea1618bf.js"
+    "static/css/main.775c23b5.css",
+    "static/js/main.96ad1b6e.js"
   ]
 }
